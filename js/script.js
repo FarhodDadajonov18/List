@@ -17,12 +17,12 @@ elForm.addEventListener("submit", function(evt){
       }
      
 
-   //    elForm.addEventListener("reset", function (evt) {
-   //      evt.preventDefault();
+      elForm.addEventListener("reset", function (evt) {
+        evt.preventDefault();
     
-   //      elList.textContent = "";
-   //      item.textContent = "";
-   //      inputValue = "";
-   // })   
+        elList.textContent = "";
+        item.textContent = "";
+        inputValue = "";
+   })   
   
 } )
