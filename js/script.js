@@ -13,8 +13,9 @@ elForm.addEventListener("submit", function(evt){
             elList.appendChild(item);
             answer.push(inputValue);
            item.textContent = answer;
-           return;
       }
       
+      elInput.value = "";
+     
   
 } )
