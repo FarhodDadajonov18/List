@@ -5,16 +5,15 @@ let elList = document.querySelector(".list");
 elForm.addEventListener("submit", function(evt){
   evt.preventDefault();
       let inputValue = elInput.value;
+          let answer = [ ];
+          answer.push(inputValue);
 
       let item = document.createElement("li"); 
-
-         for (answer of inputValue) {
-            let answer = [ ];
-            elList.appendChild(item);
-            answer.push(inputValue);
-           item.textContent = answer;
+         for (answers of answer) {            
+             elList.appendChild(item);          
+             item.textContent = answers;
       }
-      
+
       elInput.value = "";
      
   
