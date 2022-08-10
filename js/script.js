@@ -8,8 +8,9 @@ elForm.addEventListener("submit", function(evt){
           let answer = [ ];
           answer.push(inputValue);
 
-      let item = document.createElement("li"); 
-         for (answers of answer) {            
+     
+         for (answers of answer) {   
+            let item = document.createElement("li");          
              elList.appendChild(item);          
              item.textContent = answers;
       }
