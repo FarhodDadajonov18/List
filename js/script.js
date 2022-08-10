@@ -15,14 +15,6 @@ elForm.addEventListener("submit", function(evt){
            item.textContent = answer;
            return;
       }
-     
-
-      elForm.addEventListener("reset", function (evt) {
-        evt.preventDefault();
-    
-        elList.textContent = "";
-        item.textContent = "";
-        inputValue = "";
-   })   
+      
   
 } )
